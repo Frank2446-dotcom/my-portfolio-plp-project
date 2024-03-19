@@ -1,0 +1,381 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: goldenrod;
+    color: cadetblue;
+    padding: 50px;
+    
+
+}
+
+header h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8889d3;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+nav li{
+    margin: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(219, 223, 222);
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+
+}section {
+    margin-bottom: 20px;
+}
+
+section h2{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+
+
+/* Style the About Me section */
+#about {
+    background-color: #f1dada;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-height: 250px; /* Set a max height to limit the displayed content */
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Style the "Read More" link */
+#read-more {
+    display: block;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Hide the "Read More" link by default */
+#read-more.hidden {
+    display: none;
+}
+
+
+
+
+
+  /* portfolio.css */
+
+/* Style the Professions and Courses section */
+#professions {
+    background-color: #bba8a8c5; /* Light gray background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }  
+  /* Style the heading */
+  #professions h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }  
+  /* Style the list of courses */
+  #professions ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }  
+  /* Style individual course items */
+  #professions li {
+    background-color: #fff; /* White background for each course box */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Set width for three columns with margins */
+    box-sizing: border-box;
+    cursor: pointer; /* Change cursor to pointer when hovering over the box */
+  }  
+  /* Hover effect for course boxes */
+  #professions li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }  
+  /* Style links within the course boxes */
+  #professions li a {
+    text-decoration: none;
+    color: #333;
+  }
+
+
+
+/* portfolio.css */
+
+/* Style the Projects section */
+#projects {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Style the heading */
+#projects h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the list of projects */
+#projects ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style individual project items */
+#projects li {
+  background-color: #fff; /* White background for each project box */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer; /* Change cursor to pointer when hovering over the box */
+}
+
+/* Hover effect for project boxes */
+#projects li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+/* Style links within the project boxes */
+#projects li a {
+  text-decoration: none;
+  color: #333;
+}
+
+  
+  /* portfolio.css */
+
+/* Styles for Civil/Structural Engineering */
+.civil-structural {
+    background-color: #a16c6cce; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Styles for Quantity Surveying */
+  .quantity-surveying {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Styles for Land Surveying */
+  .land-surveying {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Styles for Architecture */
+  .architecture {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Styles for Programming and Software Engineering */
+  .programming-software {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Styles for Data Science and Analytics */
+  .data-science-analytics {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Styles for Robotics and Machine Learning */
+  .robotics-machine-learning {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Styles for Academic Writing */
+  .academic-writing {
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+
+  /* My Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#skills h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Separate styling for each skill category */
+.civil-structural {
+    background-color: #948c8c;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.quantity-surveying {
+    background-color: #8f8888;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.land-surveying {
+    background-color: #91b1ca;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.architecture {
+    background-color: #bea9a9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.programming-software {
+    background-color: #c9e6d9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.data-science-analytics {
+    background-color: #e0df9f;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.robotics-machine-learning {
+    background-color: #776565;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.academic-writing {
+    background-color: #e08ba0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Skill item styles */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.skill-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.skill-item a:hover {
+    text-decoration: underline;
+}
+
+
+/* My Contacts Section */
+#contacts {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+#contacts h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#contacts p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#contacts a {
+    color: #fff;
+}
+
+#contacts a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+
+
+
+footer {
+    background-color: grey;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+
+}
